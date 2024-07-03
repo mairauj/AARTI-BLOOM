@@ -1,0 +1,422 @@
+/* .my_bag_heading {
+    margin-left: 200px; 
+    margin-top: 0px; 
+    font-size: 23px;
+}
+
+.my_bag_heading_cot {
+    height: 30px;
+    text-align: start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.my_bag_order_details {
+    width: 300px; 
+    height: 300px; 
+    float: right; 
+    background-color: white; 
+    margin-right: 120px; 
+    margin-top: 50px;
+}
+
+.charge_heading {
+    margin: 12px;
+    font-size: 20px;
+}
+
+.charge_name {
+    margin: 5px 0px 5px 10px; 
+    float: left;
+}
+
+.charge {
+    margin: 7px; 
+    float: right;
+}
+
+.shipping_button {
+    width: 299px; 
+    height: 50px; 
+    background-color: rgb(219, 192, 158); 
+    color: black; 
+    margin-top: 24px; 
+}
+
+.shipping_but_text {
+    font-size: 15px; 
+    padding: 15px 5px 10px 60px;
+}
+
+.mybag_section {
+    width: 1000px; 
+    border: solid; 
+    border-bottom: none; 
+    border-left: none; 
+    border-top: none;
+}
+
+.mybag_product_container {
+    width: 750px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.mybag_product_img {
+    width: 150px; 
+    height: 200px; 
+    margin: 20px; 
+    border: 2px; 
+    border-radius: 10px; 
+    display: flex;
+}
+
+.mybag_product_details {
+    width: 450px; 
+    margin: 10px 20px 10px 20px;
+}
+
+.mybag_product_detail_hr {
+    width: 500px; 
+}
+
+.mybag_product_icon_remove {
+    margin-right: 3px;
+}
+
+.mybag_product_remove_href {
+    float: left;
+}
+
+.mybag_product_Edit_btn {
+    float: right; 
+    color: brown;
+}
+
+.mybag_product_soldBy {
+    float: left;
+    display: contents;
+    margin-bottom: 20px;
+}
+
+.mybag_product_delivery {
+    float: right; 
+    margin-top: -15px;
+    display: contents;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1300px) {
+    .my_bag_order_details {
+        float: none;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .mybag_product_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .my_bag_order_details {
+        float: none;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .mybag_product_container {
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mybag_product_img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .mybag_product_details {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .mybag_product_detail_hr {
+        width: 90%;
+    }
+
+    .my_bag_heading {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .my_bag_heading_cot {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my_bag_order_details {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .mybag_section {
+        width: 100%;
+    }
+
+    .mybag_product_container {
+        width: 100%;
+        margin: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mybag_product_img {
+        width: 50%;
+        height: auto;
+    }
+
+    .mybag_product_details {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .mybag_product_detail_hr {
+        width: 100%;
+    }
+
+    .shipping_button {
+        width: 100%;
+    }
+
+    .shipping_but_text {
+        text-align: center;
+        padding: 10px 0;
+    }
+} */
+
+/* General Styles */
+.my_bag_heading {
+    margin-left: 200px; 
+    margin-top: 0px; 
+    font-size: 23px;
+}
+
+.my_bag_heading_cot {
+    height: 30px;
+    text-align: start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.my_bag_order_details {
+    width: 300px; 
+    height: 300px; 
+    float: right; 
+    background-color: white; 
+    margin-right: 120px; 
+    margin-top: 50px;
+}
+
+.charge_heading {
+    margin: 12px;
+    font-size: 20px;
+}
+
+.charge_name {
+    margin: 5px 0px 5px 10px; 
+    float: left;
+}
+
+.charge {
+    margin: 7px; 
+    float: right;
+}
+
+.shipping_button {
+    width: 299px; 
+    height: 50px; 
+    background-color: rgb(219, 192, 158); 
+    color: black; 
+    margin-top: 24px; 
+}
+
+.shipping_but_text {
+    font-size: 15px; 
+    padding: 15px 5px 10px 60px;
+}
+
+.mybag_section {
+    width: 1000px; 
+    border: solid; 
+    border-bottom: none; 
+    border-left: none; 
+    border-top: none;
+}
+
+.mybag_product_container {
+    width: 750px;
+    height: auto; /* Change height to auto */
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    align-items: center; /* Center items vertically */
+}
+
+.mybag_product_img {
+    width: 150px; 
+    height: auto; /* Set height to auto */
+    margin: 20px; 
+    border-radius: 10px; 
+}
+
+.mybag_product_details {
+    flex: 1; /* Allow the details to take up remaining space */
+    margin: 10px 20px;
+}
+
+.mybag_product_detail_hr {
+    width: 100%; /* Adjust width to 100% */
+}
+
+.mybag_product_icon_remove {
+    margin-right: 3px;
+}
+
+.mybag_product_remove_href {
+    float: left;
+}
+
+.mybag_product_Edit_btn {
+    float: right; 
+    color: brown;
+}
+
+.mybag_product_soldBy {
+    float: left;
+    display: contents;
+    margin-bottom: 20px;
+}
+
+.mybag_product_delivery {
+    float: right; 
+    margin-top: -15px;
+    display: contents;
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 1300px) {
+    .my_bag_order_details {
+        float: none;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .mybag_product_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .my_bag_order_details {
+        float: none;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .mybag_product_container {
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mybag_product_img {
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .mybag_product_details {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .mybag_product_detail_hr {
+        width: 90%;
+    }
+
+    .my_bag_heading {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .my_bag_heading_cot {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my_bag_order_details {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .mybag_section {
+        width: 100%;
+    }
+
+    .mybag_product_container {
+        width: 100%;
+        margin: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mybag_product_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mybag_product_details {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .mybag_product_detail_hr {
+        width: 100%;
+    }
+
+    .shipping_button {
+        width: 100%;
+    }
+
+    .shipping_but_text {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+

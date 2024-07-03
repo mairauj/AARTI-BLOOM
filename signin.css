@@ -1,0 +1,159 @@
+
+/* Base styles */
+
+.signIn_section {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.signIn_Nav {
+    margin-left: 560px;
+    text-decoration: none;
+}
+
+.signin_container {
+    width: 420px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 30px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signIn_heading {
+    font-size: 23px;
+}
+
+.signIn_option_heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signIn_option_cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sigIn_opt_facebook,
+.sigIn_opt_google {
+    flex: 1;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+   
+   
+}
+
+.sigIn_opt_facebook:hover a,
+.sigIn_opt_google:hover a{
+    color: aliceblue;
+    
+}
+
+.sigIn_opt_facebook:hover,
+.sigIn_opt_google:hover{
+    
+    background-color: purple;
+}
+
+.signin_or_text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signIn_contact_no_textbox {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.sigIn_continue_btn {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    margin-top: 40px;
+}
+
+.signIn_continue_text {
+    color: aliceblue;
+}
+
+.signIn_term_condition {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .signIn_Nav {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .signin_container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .signIn_option_cont {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .signIn_contact_no_textbox {
+        width: 100%;
+    }
+
+    .sigIn_continue_btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .signIn_section {
+        margin-top: 30px;
+    }
+
+    .signin_container {
+        padding: 15px;
+    }
+
+    .signIn_heading {
+        font-size: 20px;
+    }
+
+    .signIn_option_heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .sigIn_opt_facebook,
+    .sigIn_opt_google {
+        height: 50px;
+        padding: 15px;
+    }
+
+    .signIn_contact_no_textbox {
+        margin-top: 20px;
+    }
+
+    .sigIn_continue_btn {
+        margin-top: 20px;
+    }
+
+    .signIn_term_condition {
+        font-size: 12px;
+    }
+}

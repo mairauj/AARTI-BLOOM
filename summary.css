@@ -1,0 +1,278 @@
+
+/* PLACE ORDER */
+
+.order_p_details_container
+{
+    /* height: auto;
+    max-width: 300px;
+     margin-right: 150px;
+      float: right;
+       margin-top: 50px; */
+       width: 300px;
+       float: right;
+       margin-top: 50px;
+       margin-right: 20px; /* Adjust margin-right for smaller screens */
+       padding: 20px;
+       border: 1px solid black;
+       border-radius: 10px;
+       background-color: white;
+}
+
+.price_details_head_delivery
+{
+    font-size: 16px;
+     margin-top: 10px;
+      margin-bottom: 20px;
+}
+
+.order_price_delivery
+{
+    font-size: 14px;
+     margin-right: 20px; 
+     float: right;
+}
+
+.order_price_text_dilevery
+{
+    font-size: 14px;
+     margin: 10px 0px 10px 0px;
+}
+
+.final_price_delivery
+{
+    font-size: 15px; 
+    margin: 16px 20px 10px 0px; 
+    float: right;
+}
+
+.final_price_text_delivery
+{
+    font-size: 15px; 
+    margin: 16px 0px 10px 0px;
+} 
+
+/* SECTION PART */
+
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 100PX;
+}
+
+.order_section {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 0;
+    border-right: 1px solid black;
+}
+
+.section_header {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 140PX;
+}
+
+.mybag_product_container,
+.add_det__cont_delivry,
+.PAYMENT_MODE_SUMMARY {
+    width: 100%;
+    max-width: 750px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.mybag_product_container
+{
+    width: 100%;
+    max-width: 750px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.mybag_product_img {
+    width: 150px;
+    height: 200px;  
+    float: left;
+}
+
+.mybag_product_details {
+    width: 75%;
+    text-align: start;
+   
+   margin: 10px 10px;
+}
+
+.mybag_product_detail_hr {
+    margin: 10px 0;
+}
+
+
+.payment_summery_edit {
+    color: brown;
+    margin: 10px 0px;
+}
+
+.mybag_product_Edit_btn
+{
+    color: brown;
+    margin: 10px 0px;
+    float: right;
+   
+}
+
+.radioHeading_delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coustmore_add_delvry {
+    font-size: 20px;
+}
+
+.edit_btn_a {
+    color: brown;
+}
+
+.Address_dilevry {
+    margin-top: 20px;
+}
+
+.PAYMENT_MODE_SUMMARY {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .mybag_product_container,
+    .add_det__cont_delivry,
+    .PAYMENT_MODE_SUMMARY {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* .order_p_details_container {
+        margin-right: 20px;
+    } */
+
+    
+}
+
+@media (max-width: 768px) {
+    .mybag_product_container,
+    .add_det__cont_delivry,
+    .PAYMENT_MODE_SUMMARY {
+        flex-direction: column;
+    }
+
+    .mybag_product_img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .mybag_product_details {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* .order_p_details_container {
+        width: 100%;
+        margin-right: 0;
+        float: none;
+        margin-top: 20px;
+    } */
+
+    .price_details_delivery,
+    .payment_summery_edit {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .mybag_product_Edit_btn,
+    .mybag_product_remove_href {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    
+}
+
+
+
+@media (max-width: 480px) {
+    .mybag_product_details p,
+    .mybag_product_soldBy,
+    .mybag_product_delivery {
+        text-align: center;
+    }
+   
+
+    .final_price_delivery,
+    .final_price_text_delivery {
+        text-align: center;
+        float: none;
+        margin: 10px 0;
+    }
+
+    /* payment shipping */
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .order_section {
+        max-width: 100%;
+    }
+
+    .mybag_product_details {
+        padding-left: 0;
+    }
+
+    .order_p_details_container {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    
+}
+
+@media (max-width: 1300px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .order_section {
+        max-width: 100%;
+    }
+
+    .mybag_product_details {
+        padding-left: 0;
+    }
+
+    .order_p_details_container {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}
+
